@@ -1,0 +1,17 @@
+.header{
+    grid-area: h;
+    background-color: rgb(47, 185, 66);
+    display: flex;
+}
+
+.header__logo-wrp{
+    width: 80px;
+}
+.header__logo-wrp > img{
+    max-width: 100%;
+}
+
+.title{
+    font-size: 2rem;
+    color: rebeccapurple;
+}
