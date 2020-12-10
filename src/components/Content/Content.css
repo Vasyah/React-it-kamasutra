@@ -1,0 +1,12 @@
+.content__logo-wrp{
+    width: 100%;
+    max-width: 720px;
+}
+.content__logo-wrp > img{
+    max-width: 100%;
+}
+
+.content{
+    grid-area: m;
+    background-color: rgb(241, 113, 113);
+}

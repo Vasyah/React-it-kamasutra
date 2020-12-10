@@ -1,23 +1,8 @@
 .app-wrp{
+    font-size: 18px;
     display: grid;
     grid-template-columns: 4fr 8fr;
     grid-template-rows: 80px 500px;
     grid-template-areas: 'h h' 'a m';
 }
 
-.content__logo-wrp{
-    width: 100%;
-    max-width: 720px;
-}
-.content__logo-wrp > img{
-    max-width: 100%;
-}
-
-.sidebar{
-    grid-area: a;
-    background-color: rgb(39, 119, 224);
-}
-.content{
-    grid-area: m;
-    background-color: rgb(241, 113, 113);
-}
