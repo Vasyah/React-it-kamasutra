@@ -1,0 +1,31 @@
+:root {
+    --main-color: rgb(51, 51, 51);
+}
+
+.sidebar {
+    grid-area: a;
+    background-color: rgba(51, 51, 51, 0.85);
+}
+
+.sidebarList {
+    font-family: Georgia, serif, Times;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.sidebarList__item {
+    background-color: var(--main-color);
+    border-left: 5px solid #222;
+    border-right: 5px solid #222;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #bfe1f1;
+    transition: transform ease-in 300ms;
+    padding: 5px 5px 5px 15px;
+}
+
+.sidebarList__item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 3px #fff;
+    border-right: none;
+}

@@ -1,14 +1,14 @@
-import './Sidebar.css';
+import style from './Sidebar.module.css';
 
 const Sidebar = () => {
   return (
-    <aside className="sidebar">
-      <nav>
-        <div>Profile</div>
-        <div>Profile</div>
-        <div>Profile</div>
-        <div>Profile</div>
-        <div>Profile</div>
+    <aside className={style.sidebar}>
+      <nav className={style.sidebarList}>
+        <div className={style.sidebarList__item}>Profile</div>
+        <div className={style.sidebarList__item}>Messages</div>
+        <div className={style.sidebarList__item}>News</div>
+        <div className={style.sidebarList__item}>Music</div>
+        <div className={style.sidebarList__item}>Settings</div>
       </nav>
     </aside>
 

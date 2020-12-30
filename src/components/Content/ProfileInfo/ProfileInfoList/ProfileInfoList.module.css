@@ -1,0 +1,44 @@
+.profile__img {
+    margin-right: 25px;
+    width: 100px;
+    height: 100px;
+}
+
+.profile {
+    display: flex;
+    padding: 25px;
+}
+
+.profile__imgWrp {
+    position: relative;
+    padding-bottom: 100%;
+    overflow: hidden;
+}
+
+.profile__imgWrp>img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+}
+
+.profile__info {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.profile__title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profileList {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.profileList__item {
+    padding: 5px 5px 5px 0;
+}

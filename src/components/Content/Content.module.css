@@ -1,0 +1,24 @@
+.content {
+    grid-area: m;
+    background-color: #ff814b;
+}
+
+.content__main {
+    padding: 25px;
+}
+
+.imgWrp {
+    position: relative;
+    padding-top: 20.25%;
+    height: 0;
+    overflow: hidden;
+    /* 16:9 Aspect Ratio */
+}
+
+.imgWrp>img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+}
