@@ -1,15 +1,13 @@
-import style from './Posts.module.css';
+import style from './Posts.module.scss';
+import Post from './Post/Post';
 
 const Posts = (props) => {
   return (
     <section className={style.wrapper}>
       <ul className={style.Posts}>
-        <li className={style.Post}>
-          <a href="javascript:void(0)" className={style.Post__profile}>
-            <img src="https://miro.medium.com/max/2400/0*FQDpr9ek5UeREK-o.jpeg" alt="" />
-          </a>
-          
-        </li>
+        <Post/>
+        <Post/>
+        <Post/>
       </ul>
     </section>
   );

@@ -13,6 +13,7 @@ const Content = (props) => {
       <div className={style.content__main}>
         <ProfileInfo />
         <AddPost />
+        <Posts/>
       </div>
 
     </main>

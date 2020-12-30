@@ -1,8 +1,8 @@
-import style from './Example.module.css';
+import style from './Example.module.scss';
 
 const Example = (props) => {
   return (
-    <section className={styles.Example}>
+    <section className={style.Example}>
 
     </section>
   );

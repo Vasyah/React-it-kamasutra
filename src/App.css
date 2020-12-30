@@ -1,8 +1,8 @@
-.app-wrp{
+.app-wrp {
     font-size: 18px;
     display: grid;
     grid-template-columns: 4fr 8fr;
-    grid-template-rows: 80px 500px;
+    grid-template-rows: 80px 1fr;
     grid-template-areas: 'h h' 'a m';
+    min-height: 100vh;
 }
-
